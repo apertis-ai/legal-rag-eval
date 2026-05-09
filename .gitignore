@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.venv/
+venv/
+env/
+
+# Datasets (large, fetched on demand)
+datasets/raw/
+datasets/cache/
+datasets/*.parquet
+datasets/*.jsonl
+!datasets/community/
+
+# Results
+results/runs/
+results/*.json
+!results/baseline/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Secrets
+.env
+.env.local
+*.pem
+*.key
+secrets/
