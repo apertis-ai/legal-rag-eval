@@ -13,17 +13,31 @@ Live results: **[apertis.ai/verbatim/leaderboard](https://apertis.ai/verbatim/le
 
 ## Why this exists
 
-Stanford benchmarked the major legal AI tools in 2025:
+Two independent academic studies measured leading legal AI tools — and disagreed substantially. **The disagreement is the opportunity.**
+
+### Stanford RegLab (May 2024)
+
+[arXiv:2405.20362](https://arxiv.org/abs/2405.20362) — attorney-validated query test sets.
 
 | System | Citation accuracy | Hallucination rate |
 |---|---|---|
-| Lexis+ AI | 65% | <3% |
-| CoCounsel (Thomson Reuters) | 49% | — |
-| Westlaw AI-Assisted Research | 42% | 5-6% |
+| Lexis+ AI | 83% | 17% |
+| Westlaw AI-Assisted Research | 66% | 34% |
+| CoCounsel (Thomson Reuters) | 51% | 49% |
 
-None of these systems publish their benchmark numbers. Most don't expose APIs to reproduce them.
+### VLAIR (Feb 2025)
 
-This project does both — open methodology, reproducible runs, public live dashboard.
+[Vals Legal AI Report](https://www.vals.ai/benchmarks/vlair-02-25-2025) — task-completion benchmark across 8 legal task types.
+
+| System | Accuracy |
+|---|---|
+| Harvey | 94.8% |
+| CoCounsel | 89.6% |
+| Westlaw | 67% |
+
+Same systems, different methodologies, different numbers. Neither result is reproducible without re-purchasing the underlying tools. **Both source studies are static snapshots — there is no live, open, continuously-updated benchmark.**
+
+This project fills that gap: public methodology, reproducible runs, live dashboard updated weekly.
 
 ## Status
 

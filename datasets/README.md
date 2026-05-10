@@ -7,9 +7,9 @@ Test corpora and ground truth. Large files are not committed; fetcher scripts pu
 | Stanford RegLab 2025 | US legal hallucination corpus | Stanford terms (research) |
 | Harvard CAP | 6.7M US case law records | CC0 / public |
 | CourtListener | Federal cases + audio | CC BY-SA |
-| 國家法令資訊中心 (KR) | Korean statutes + judgments | Public |
-| 司法院法學資料 (TW) | Taiwan judgments | Public |
-| 裁判所判例検索 (JP) | Japan court decisions | Public |
+| Korean Law Information Center (law.go.kr) | Korean statutes + judgments | Public |
+| Taiwan Judicial Yuan Law Database (judicial.gov.tw) | Taiwan judgments | Public |
+| Japan Courts Case Search (courts.go.jp) | Japan court decisions | Public |
 | EUR-Lex | EU regulations + case law | EU public |
 
 ## community/

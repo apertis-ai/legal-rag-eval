@@ -47,9 +47,9 @@ LLM-judge: GPT-4o + Claude Opus 4.7 ensemble, human-calibrated on 200-sample str
 - **CourtListener** — federal case law + audio, public
 
 ### Multi-jurisdictional
-- **Korea**: Open data via 국가법령정보센터 (law.go.kr) — public statutes, judgments
-- **Taiwan**: 司法院法學資料檢索系統 — public judgments
-- **Japan**: 裁判所判例検索 (courts.go.jp) — public
+- **Korea**: Korean Law Information Center (law.go.kr) — public statutes, judgments
+- **Taiwan**: Judicial Yuan Law Database (judicial.gov.tw) — public judgments
+- **Japan**: Japan Courts Case Search (courts.go.jp) — public court decisions
 - **EU**: EUR-Lex — public regulations and case law
 
 ## Reproducibility
