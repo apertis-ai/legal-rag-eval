@@ -5,7 +5,7 @@
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Status: alpha](https://img.shields.io/badge/Status-alpha-orange)](#status)
 
-Reproducible benchmarks for legal AI tools — Verbatim, Westlaw, CoCounsel, LlamaParse, GPT-4o, and any system you want to add. Methodology builds on [Stanford RegLab's 2025 hallucination paper](https://dho.stanford.edu/wp-content/uploads/Legal_RAG_Hallucinations.pdf).
+Reproducible benchmarks for legal AI tools — Verbatim, Westlaw, CoCounsel, LlamaParse, GPT-5.5, and any system you want to add. Methodology builds on [Stanford RegLab's 2025 hallucination paper](https://dho.stanford.edu/wp-content/uploads/Legal_RAG_Hallucinations.pdf).
 
 Live results: **[apertis.ai/verbatim/leaderboard](https://apertis.ai/verbatim/leaderboard)** (refreshed weekly)
 
@@ -45,10 +45,10 @@ This project fills that gap: public methodology, reproducible runs, live dashboa
 
 Roadmap to v0.1.0:
 - [ ] Dataset adapter for Stanford RegLab corpus
-- [ ] Runner skeleton for Verbatim, Westlaw API, CoCounsel API, LlamaParse, GPT-4o-direct
+- [ ] Runner skeleton for Verbatim, Westlaw API, CoCounsel API, LlamaParse, GPT-5.5-direct
 - [ ] Citation accuracy scorer (Bluebook-aware)
 - [ ] Hallucination detector (LLM-judge with calibration)
-- [ ] Multi-jurisdiction adapter (US, KR, TW, JP, EU)
+- [ ] Multi-jurisdiction adapter (US anchor + Korean legal systems)
 - [ ] Live dashboard publisher (writes to apertis.ai/verbatim/leaderboard)
 - [ ] CI for weekly auto-run
 
@@ -76,7 +76,7 @@ See [METHODOLOGY.md](METHODOLOGY.md) for full details. Highlights:
 
 PRs welcome. See [CONTRIBUTING.md](CONTRIBUTING.md). Most-wanted contributions:
 
-1. New jurisdiction adapters (especially KR, JP, EU member states)
+1. New jurisdiction adapters (Korean legal systems are v1 scope; additional jurisdictions welcome as community research)
 2. Additional system runners (LegalMation, Spellbook, Irys, Briefpoint, etc.)
 3. Methodology critique — open an issue
 4. Bluebook citation normaliser improvements

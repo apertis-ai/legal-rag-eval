@@ -8,9 +8,6 @@ Test corpora and ground truth. Large files are not committed; fetcher scripts pu
 | Harvard CAP | 6.7M US case law records | CC0 / public |
 | CourtListener | Federal cases + audio | CC BY-SA |
 | Korean Law Information Center (law.go.kr) | Korean statutes + judgments | Public |
-| Taiwan Judicial Yuan Law Database (judicial.gov.tw) | Taiwan judgments | Public |
-| Japan Courts Case Search (courts.go.jp) | Japan court decisions | Public |
-| EUR-Lex | EU regulations + case law | EU public |
 
 ## community/
 

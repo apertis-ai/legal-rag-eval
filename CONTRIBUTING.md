@@ -4,7 +4,7 @@ Thanks for considering. PRs welcome — this framework is meant to be community-
 
 ## High-priority contributions
 
-1. **New jurisdiction adapters** — KR, JP, EU member states especially. Pattern lives in `runners/jurisdictions/`.
+1. **New jurisdiction adapters** — Korean systems especially (US and Korea are v1 scope). Pattern lives in `runners/jurisdictions/`. Additional jurisdictions welcome as community research.
 2. **System runners** — add a new legal AI tool to the leaderboard. Implement `runners/systems/<system>.py` interface.
 3. **Methodology critique** — open an issue tagged `methodology`. We respond within 7 days.
 4. **Bluebook normaliser improvements** — `evals/citation/normalize.py` has edge cases catalogued.

@@ -37,7 +37,7 @@ Each fact statement in the response is scored against the cited authority:
 
 Hallucination rate = (contradicted + unsupported + fabricated) / total facts.
 
-LLM-judge: GPT-4o + Claude Opus 4.7 ensemble, human-calibrated on 200-sample stratified subset (target inter-rater agreement κ ≥ 0.8).
+LLM-judge: GPT-5.5 + Claude Opus 4.7 ensemble, human-calibrated on 200-sample stratified subset (target inter-rater agreement κ ≥ 0.8).
 
 ## Datasets
 
@@ -46,11 +46,11 @@ LLM-judge: GPT-4o + Claude Opus 4.7 ensemble, human-calibrated on 200-sample str
 - **Harvard Caselaw Access Project (CAP)** — 6.7M US case law records, public
 - **CourtListener** — federal case law + audio, public
 
-### Multi-jurisdictional
-- **Korea**: Korean Law Information Center (law.go.kr) — public statutes, judgments
-- **Taiwan**: Judicial Yuan Law Database (judicial.gov.tw) — public judgments
-- **Japan**: Japan Courts Case Search (courts.go.jp) — public court decisions
-- **EU**: EUR-Lex — public regulations and case law
+### Geographic scope (v1)
+- **United States**: Harvard Caselaw Access Project (CAP) + CourtListener (anchor jurisdiction)
+- **Korea**: Korean Law Information Center (law.go.kr) — public statutes and judgments
+
+Additional jurisdictions are out of scope for v1.
 
 ## Reproducibility
 
